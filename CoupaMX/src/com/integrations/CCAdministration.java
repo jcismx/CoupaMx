@@ -17,7 +17,7 @@ public class CCAdministration {
 			String Parent_External_Ref_Code, String Chart_of_Accounts, Map cost_object, Map account_object) {
 		System.out.println("=> " + Lookup);
 
-		System.out.println("\nEmpieza generacion plantilla:");
+		System.out.println("\nEmpieza generacion plantilla:  c");
 		System.out.println(header);
 		Set<Map.Entry<String, CostCenter>> entries = cost_object.entrySet();
 		Set<Map.Entry<String, String>> accounts = account_object.entrySet();
